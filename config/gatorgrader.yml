@@ -7,7 +7,18 @@ README.md:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
     MatchFileFragment --fragment "{Your Name Here}" --count -0 --exact
-    
+
+src/main:
+    java:
+        finalproject/LabProject.java:
+            ConfirmFileExists
+
+src/starter:
+    java:
+        finalproject/LabProject.java:
+            ConfirmFileExists
+        
+
 project:
     reflection.md:
         ConfirmFileExists
@@ -21,6 +32,5 @@ writing:
         CountMarkdownTags --tag "heading" --count 5
         CountMarkdownTags --tag "code_block" --count 1
             
-CountCommits --count 5
 ExecuteCommand --command "gradle build"
 ExecuteCommand --command "gradle run"

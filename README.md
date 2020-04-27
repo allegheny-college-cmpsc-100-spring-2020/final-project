@@ -1,7 +1,9 @@
-# CMPSC 100-02:  Final Project
+# CMPSC 100-02:  Final Project Option (100 pts.)
+
+**NOTE: You are only required to complete one of the Final options; if choosing to do both, you will receive the higher score between the two, _not_ extra credit.**
 
 * Assigned: 27 April, 2020
-* Due: 5 May 2020, 
+* Due: 5 May 2020
 * Point value: 100 pts
 
 ## Project description
@@ -19,11 +21,11 @@ While the overall topic is up to you, a full realized project should contain:
     * Retains all "boilerplate" language typical of a lab assignment for the course (this will be included in `template.md`)
     
 ### Code
-- [ ] Working solution in code located in the `src/main/java` directory in a subdirectory named according to your topic which:
+- [ ] Working solution in code located in the `src/main/java/finalproject` directory in a subdirectory named according to your topic which:
     * Contains complete `Javadoc` comments for all `classes` and `methods` (see `Appendix J` in _JSS_)
     * Passes `gradle build`
     * Passes `gradle run`
-- [ ] "Broken," "starter" code located in the `src/starter/java/` directory in a subdirectory named according to your topic which:
+- [ ] "Broken," "starter" code located in the `src/starter/java/finalproject` directory in a subdirectory named according to your topic which:
     * Contains complete `Javadoc` comments for all `classes` and `methods` (see `Appendix J` in _JSS_)
     * Uses `TODO` markers to direct students to areas requiring completion
     
